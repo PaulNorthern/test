@@ -1,6 +1,7 @@
 # test
  
-
+**# login: admin**  
+**# password: admin**
  
 **Получить все книги**  
 */api/books/*  
