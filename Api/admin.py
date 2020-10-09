@@ -6,8 +6,6 @@ class AuthorAdmin(admin.ModelAdmin):
 
     list_display = ('id', 'name', 'birth_date', 'gender')
     list_filter = ('gender', )
-    search_fields = ('title', 'birth_date', 'address',
-                     'city', 'state', 'zipcode', 'price')
     list_per_page = 25
 
 
